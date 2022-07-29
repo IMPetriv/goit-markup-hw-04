@@ -236,7 +236,6 @@ img {
 .hero-team-item:last-child {
 	margin-right: 0px;
 }
-
 .hero-team-member {
 	color: var(--primary-title-color);
 	font-weight: 500;
@@ -260,10 +259,24 @@ img {
 	line-height: 1.8;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin-bottom: 16px;
 }
 .hero-team-container {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.team-soc {
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+}
+.team-soc-link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: tomato;
+	display: block;
 }
 /*footer*/
 .footer {
