@@ -48,7 +48,7 @@ h6 {
 }
 
 .header {
-	border-bottom: 1px solid #ececec;	
+	border-bottom: 1px solid #ececec;
 }
 .header-logo {
 	font-family: "Raleway", sans-serif;
@@ -275,9 +275,22 @@ img {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
-	background-color: tomato;
-	display: block;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+.team-soc-link:hover, :focus {
+	background-color: #2196F3;
+}
+.team-soc-link .team-soc-icon:hover, :focus {
+	fill: #ffffff;
+}
+
+.team-soc-icon {
+	fill:#AFB1B8;
+}
+
 /*footer*/
 .footer {
 	padding-top: 60px;
